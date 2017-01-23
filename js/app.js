@@ -3,5 +3,5 @@ var server = require ('http').createServer(app),
 	fs = require('fs');
 
 app.get('/', function(req,res){
-	res.sendfile(__dirname + '/index.html');
+	res.sendfile(__dirname + './index.html');
 });
